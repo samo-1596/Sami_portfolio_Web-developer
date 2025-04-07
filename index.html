@@ -7,156 +7,159 @@
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6033/6033716.png">
   <style>
     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', sans-serif;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-    body {
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
-    }
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
 
-    header {
-      background-color: #480a71f2;
-      color: #fff;
-      padding: 60px 20px;
-      text-align: center;
-    }
+header {
+  background-color: #480a71f2;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
 
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
 
-    header p {
-      font-size: 1.2rem;
-    }
+header p {
+  font-size: 1.2rem;
+}
 
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
-    }
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
 
-    .section {
-      background: #7a777781;
-      margin: 20px 0;
-      padding: 25px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
+.section {
+  background: #7a777781;
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
 
-    .section h2 {
-      color: #2563eb;
-      margin-bottom: 10px;
-    }
+.section h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
 
-    .section p {
-      font-size: 1rem;
-    }
+.section p {
+  font-size: 1rem;
+}
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #1e3a8a;
-      color: white;
-      margin-top: 40px;
-    }
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e3a8a;
+  color: white;
+  margin-top: 40px;
+}
 
-    /* Contact Section Styles */
-    .contact-form {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
+/* Contact Section Styles */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-    .contact-form input,
-    .contact-form textarea {
-      padding: 10px;
-      font-size: 1rem;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      width: 100%;
-    }
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
 
-    .contact-form button {
-      background-color: #2563eb;
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
+.contact-form button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-    .contact-form button:hover {
-      background-color: #1e3a8a;
-    }
+.contact-form button:hover {
+  background-color: #1e3a8a;
+}
 
-    .contact-buttons {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-    }
+.contact-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-    .contact-buttons a {
-      text-decoration: none;
-      background-color: #25d366; /* WhatsApp Green */
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-size: 1rem;
-      transition: background-color 0.3s;
-    }
+.contact-buttons a {
+  text-decoration: none;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
 
-    .contact-buttons a:hover {
-      background-color: #128c7e; /* WhatsApp Dark Green */
-    }
+.contact-buttons a:hover {
+  background-color: #128c7e;
+}
 
-    .contact-buttons a.email {
-      background-color: #0077b5; /* Email Blue */
-    }
+.contact-buttons a.email {
+  background-color: #0077b5;
+}
 
-    .contact-buttons a.email:hover {
-      background-color: #005f8a;
-    }
+.contact-buttons a.email:hover {
+  background-color: #005f8a;
+}
 
-    /* New "Contact for Web Development" Section */
-    .dev-contact-section {
-      background: #e2e8f0;
-      padding: 30px;
-      text-align: center;
-      margin-top: 40px;
-      border-radius: 8px;
-    }
+/* Dev Contact Section */
+.dev-contact-section {
+  background: #e2e8f0;
+  padding: 30px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 8px;
+}
 
-    .dev-contact-section h2 {
-      color: #2563eb;
-    }
+.dev-contact-section h2 {
+  color: #2563eb;
+}
 
-    .dev-contact-section p {
-      font-size: 1.1rem;
-      margin-bottom: 20px;
-    }
+.dev-contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
 
-    .dev-contact-section .btn {
-      padding: 10px 25px;
-      background-color: #2563eb;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 1rem;
-      transition: background-color 0.3s;
-    }
+.dev-contact-section .btn {
+  padding: 10px 25px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
 
-    .dev-contact-section .btn:hover {
-      background-color: #1e3a8a;
-    }
-    .navbar {
+.dev-contact-section .btn:hover {
+  background-color: #1e3a8a;
+}
+
+/* Navbar */
+.navbar {
   background-color: #101157;
   padding: 15px 20px;
 }
@@ -165,13 +168,14 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .logo {
   width: 30px;
   height: 30px;
   object-fit: cover;
-  border-radius: 50%; /* optional: makes it round */
+  border-radius: 50%;
 }
 
 .nav-left a {
@@ -183,6 +187,79 @@
 .nav-left a:hover {
   text-decoration: underline;
 }
+
+/* -------------------- */
+/* Responsive Styles 💡 */
+/* -------------------- */
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 20px 15px;
+  }
+
+  .section {
+    padding: 20px 15px;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-buttons a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dev-contact-section p {
+    font-size: 1rem;
+  }
+
+  .dev-contact-section .btn {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .nav-left {
+    justify-content: center;
+  }
+
+  .nav-left a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 0.95rem;
+  }
+
+  .contact-buttons {
+    gap: 10px;
+  }
+
+  .contact-buttons a {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .dev-contact-section p {
+    font-size: 0.95rem;
+  }
+}
+
   </style>
 </head>
 <body>
