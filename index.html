@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samiullah_Portfolio</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6033/6033716.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #480a71f2;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      background: #7a777781;
+      margin: 20px 0;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .section h2 {
+      color: #2563eb;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e3a8a;
+      color: white;
+      margin-top: 40px;
+    }
+
+    /* Contact Section Styles */
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    .contact-form button {
+      background-color: #2563eb;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+      background-color: #1e3a8a;
+    }
+
+    .contact-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .contact-buttons a {
+      text-decoration: none;
+      background-color: #25d366; /* WhatsApp Green */
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+    }
+
+    .contact-buttons a:hover {
+      background-color: #128c7e; /* WhatsApp Dark Green */
+    }
+
+    .contact-buttons a.email {
+      background-color: #0077b5; /* Email Blue */
+    }
+
+    .contact-buttons a.email:hover {
+      background-color: #005f8a;
+    }
+
+    /* New "Contact for Web Development" Section */
+    .dev-contact-section {
+      background: #e2e8f0;
+      padding: 30px;
+      text-align: center;
+      margin-top: 40px;
+      border-radius: 8px;
+    }
+
+    .dev-contact-section h2 {
+      color: #2563eb;
+    }
+
+    .dev-contact-section p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .dev-contact-section .btn {
+      padding: 10px 25px;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+    }
+
+    .dev-contact-section .btn:hover {
+      background-color: #1e3a8a;
+    }
+    .navbar {
+  background-color: #101157;
+  padding: 15px 20px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%; /* optional: makes it round */
+}
+
+.nav-left a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-left a:hover {
+  text-decoration: underline;
+}
+  </style>
+</head>
+<body>
+  <!-- navbar -->
+  <div class="box" onclick="changeBoxColor()"><button style="padding: 20px 20px; top: 65px; margin: 5px 8px; background-color: rgb(21, 110, 113); position: fixed; border-radius: 40px;">Dark/ Light Mode</button>
+  <nav class="navbar">
+    <div class="nav-left">
+      <span class="logo">🚀</span>
+      <a href="cv.html" target="_blank">SAMIULLAH(C.V)</a>
+    </div>
+  </nav>
+  <!-- section -->
+  <header>
+    <img src="sami.jpg" alt="samiullah Image" style="width: 230px; border-radius: 50%; margin-bottom: 20px;" />
+    <h1>SAMIULLAH PORTFOLIO</h1>
+    <p>Welcome to my web development portfolio. Explore my work and get in touch!</p>
+  </header>
+  <div class="container">
+    <!-- About Section -->
+    <div class="section">
+      <h2>About Me!</h2>
+      <p>Hello! I'm SAMIULLAH, a passionate web developer skilled in HTML, CSS, JavaScript, and modern web technologies. I create beautiful and functional websites for my clients. I'm always ready for new challenges!</p>
+      <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section">
+      <h2>Projects:</h2>
+      <p>Here are some of the projects I've worked on. From small landing pages to full-fledged FRONTED PAGE , I bring every project to life with dedication and attention to detail. If you want a stunning website built for your business or personal project, I'm here to help! I specialize in responsive, user-friendly designs with modern technologies.</p>
+      <p><strong>Technologies used:</strong> HTML, CSS, JavaScript, and other modern web frameworks</p>
+    </div>
+
+    <!-- Web Development Info Section -->
+    <div class="dev-contact-section" style="background-color: #aab9ed;">
+      <h2>Interested in Web Development?</h2>
+      <p>If you want a stunning website built for your business or personal project, I'm here to help! I specialize in responsive, user-friendly designs with modern technologies.</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+    <!-- INFORMATION -->
+    <div class="container">
+      <div class="section">
+        <h2>What is Web Development?</h2>
+        <p>Web development is the process of building websites and web applications for the internet. It includes everything from simple static websites to complex web-based apps, social networks, and e-commerce platforms.</p>
+      </div>
+  
+      <div class="section">
+        <h2>HTML (HyperText Markup Language):</h2>
+        <p>HTML is the backbone of any website. It structures the content by using elements like headings, paragraphs, images, and links. Think of it as the skeleton of a web page.</p>
+      </div>
+  
+      <div class="section">
+        <h2>CSS (Cascading Style Sheets):</h2>
+        <p>CSS is used to style the HTML structure. It controls colors, layouts, fonts, spacing, and responsiveness — making the website visually appealing and user-friendly.</p>
+      </div>
+  
+      <div class="section">
+        <h2>JavaScript:</h2>
+        <p>JavaScript adds interactivity to websites. It allows you to create dynamic effects like sliders, form validation, animations, and fetch data from servers without reloading the page.</p>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="section" id="contact">
+      <h2>Contact Me:</h2>
+      <form class="contact-form" id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+      </form>
+
+      <div class="contact-buttons">
+        <a href="https://wa.me/+923291504030" target="_blank" style="margin-top: 10px;">WhatsApp</a>
+        <a class="email" href="mailto:woodzampa@gmail.com" target="_blank" style="margin-top: 10px;">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 | Created by SAMIULLAH - Web Developer
+  </footer>
+</div>
+  <script>
+    // JavaScript for form submission (basic)
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message, I will get back to you soon!');
+      document.getElementById('contact-form').reset();
+    });
+
+
+        // daek and light mode
+    let mod = "light";
+
+function changeBoxColor() {
+  if(mod === "light") {
+    document.querySelector('.box').style.backgroundColor = 'black';
+    document.querySelector('.box').style.color = 'white';
+    mod = "dark";    
+} else {
+    document.querySelector('.box').style.backgroundColor = 'white';
+    document.querySelector('.box').style.color = 'black';
+    mod = "light";
+}
+}
+  </script>
+
+</body>
+</html>
